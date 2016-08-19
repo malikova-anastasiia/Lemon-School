@@ -1,0 +1,17 @@
+img {
+	border-color: fuchsia;
+}
+span {
+	text-decoration: underline;
+}
+footer {
+	border-bottom: 2px dashed;
+}
+.line
+{
+	border-left: 4px dashed;
+	border-color: blueviolet;
+}
+a:hover {
+text-decoration: none;
+}
