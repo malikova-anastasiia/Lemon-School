@@ -129,19 +129,18 @@ div .sidebar {
 	font-size: 20px;
 	color: darkslateblue;
 }
-.works span {
+.works-title {
 	font-size: 37px;
 	color: darkslateblue;
 	margin-left: 370px;
 }
 .works img {
-	width: 400px;
-	height: 300px;
+	width: 100%;
+	height: 100%;
 	vertical-align: middle;
 }
 .works div {
 	float: left;
-	margin: 30px;
 	border: 2px solid darkslateblue;
 	box-shadow: 0 0 20px 0 darkslateblue;
 }
@@ -149,6 +148,51 @@ div .sidebar {
 	content: '';
 	display: block;
 	clear: both;
+}
+.product {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	border: 1px solid red;
+	margin: 50px auto 0;
+	text-align: center;
+	overflow: hidden;
+	margin: 30px;
+}
+.hover {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	top: -100%;
+	left: 100%;
+	padding-top: 20px;
+	transition: all .5s;
+}
+.title {
+	display: block;
+	font-size: 22px;
+	color: turquoise;
+	text-transform: uppercase;
+}
+.link {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 300;
+	border: 2px solid turquoise;
+	color: turquoise;
+	padding: 8px 10px 6px;
+	margin-top: 150px;
+
+}
+.product:hover .hover {
+	opacity: 1;
+	top: 0;
+	left: 0;
+	/*opacity: 1;*/
 }
 .product a:hover{
 	opacity: 0.8;
