@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+	font-size: 32px;
+	color: white;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background-color: rosybrown;
+}
+header {
+	height: 130px;
+	background-color: blue;
+	padding: 50px 30px;
+}
+footer {
+	height: 130px;
+	padding: 50px 30px;
+	background-color: black;
+}
+.content {
+	background-color: white;
+	margin-left: 200px;
+	width: 400px;
+	min-height: 200px;
+	color: black;
+	font-size: 17px;
+	padding: 20px;
+}
+div .first {
+	padding: 30px;
+	float: left;
+	background-color: rosybrown;
+	width: 200px;
+}
+div .second {
+	padding: 30px;
+	float: right;
+	width: 200px;
+	background-color: rosybrown;
+} 
+.clear {
+	clear: both;
+}
