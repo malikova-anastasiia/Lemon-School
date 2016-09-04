@@ -64,9 +64,9 @@ div .sidebar {
 	display: block;
 	position: fixed;
 	border: 3px dotted darkturquoise;
-	font-size: 20px;
+	font-size: 25px;
 	padding-left: 40px;
-	line-height: 1.5;
+	line-height: 1.8;
 }
 .sidebar li {
     list-style-type: none; 
