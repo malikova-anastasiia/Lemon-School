@@ -1,0 +1,30 @@
+a::before {
+	content: '';
+	display: block;
+	width: 50%;
+	height: 1px;
+	background-color: #000;
+	bottom: -1px;
+	left: 0;
+	position: absolute;
+}
+a {
+	position: relative;
+	text-decoration: none;
+	color: black;
+}
+a:hover::before {
+	width: 100%;
+}
+.list0::before {
+	content: '★';
+}
+.list1::before {
+	content: '❤';
+}
+.list2::before {
+	content: '☀';
+}
+ul {
+	list-style-type: none;
+}
