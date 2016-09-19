@@ -1,7 +1,12 @@
-* {
+*, 
+*::before,
+*::after  {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+.inner {
+	background-color: #f1f1f1;
 }
 .wrapper {
 	width: 1200px;
@@ -52,7 +57,7 @@ header {
 	color: white;
 }
 .about {
-	margin-left: 184px;
+	margin: 0 auto;
 	border-radius: 10px;
 	width: 835px;
 	background-color: white;
@@ -178,6 +183,9 @@ a {
 	text-decoration: none;
 	color: black;
 }
+.posts div:hover {
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2)
+}
 a:visited {
 	color: black;
 }
@@ -200,7 +208,8 @@ a:visited {
 }
 .post {
 	display: block;
-	padding-top: 43px;
+	margin-top: 30px;
+	padding-bottom: 13px;
 }
 .post h4 {
 	padding-left: 120px;
