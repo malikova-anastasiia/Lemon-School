@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: montserratlight;
+	font-family: 'montserratlight', sans-srefif;
 }
 .wrapper {
 	background-image: linear-gradient(to left, #e5e5e5, #fff);
