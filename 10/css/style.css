@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+form {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.form-control {
+	display: block;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+span {
+	background-color: #ccc;
+	padding: 5px;
+	color: dimgrey;
+	border: 1px solid grey;
+	margin-left: -2px;
+}
+input {
+	border: 1px solid white;
+	margin-right: -3px;
+	margin-left: -3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 24px;
+}
+input[name="username"] {
+	width: 94%;
+}
+input[name="recipient"]{
+	width: 73.12%;
+}
+input[name="money"] {
+	width: 88.6%;
+}
+input[name="url"] {
+	width: 54%;
+}
+button {
+	display: inline-block;
+	width: 15%;
+	background-color: white;
+	border: 1px solid grey;
+	color: dimgrey;
+	border-radius: 3px;
+	padding: 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+button:hover {
+	background-color: #ccc;;
+}
